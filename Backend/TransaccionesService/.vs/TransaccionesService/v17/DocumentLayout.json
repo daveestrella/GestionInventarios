@@ -1,12 +1,136 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Ejercicios\\Inventarios\\Backend\\TransaccionesService\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|e:\\ejercicios\\gestioninventarios\\backend\\transaccionesservice\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|solutionrelative:services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|e:\\ejercicios\\gestioninventarios\\backend\\transaccionesservice\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|solutionrelative:controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|e:\\ejercicios\\gestioninventarios\\backend\\transaccionesservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|e:\\ejercicios\\gestioninventarios\\backend\\transaccionesservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|e:\\ejercicios\\gestioninventarios\\backend\\transaccionesservice\\dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|solutionrelative:dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|e:\\ejercicios\\gestioninventarios\\backend\\transaccionesservice\\services\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|solutionrelative:services\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|e:\\ejercicios\\gestioninventarios\\backend\\transaccionesservice\\dto\\historialproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0230E62-5598-4F79-8C32-FF5DDA71E31F}|TransaccionesService.csproj|solutionrelative:dto\\historialproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T00:14:46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITransaccionService.cs",
+              "DocumentMoniker": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\Services\\ITransaccionService.cs",
+              "RelativeDocumentMoniker": "Services\\ITransaccionService.cs",
+              "ToolTip": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\Services\\ITransaccionService.cs",
+              "RelativeToolTip": "Services\\ITransaccionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T00:02:50.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\DTO\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ProductoDTO.cs",
+              "ToolTip": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\DTO\\ProductoDTO.cs",
+              "RelativeToolTip": "DTO\\ProductoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T23:46:34.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistorialProductoDTO.cs",
+              "DocumentMoniker": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\DTO\\HistorialProductoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\HistorialProductoDTO.cs",
+              "ToolTip": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\DTO\\HistorialProductoDTO.cs",
+              "RelativeToolTip": "DTO\\HistorialProductoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T23:19:34.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransaccionController.cs",
+              "DocumentMoniker": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\Controllers\\TransaccionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransaccionController.cs",
+              "ToolTip": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\Controllers\\TransaccionController.cs",
+              "RelativeToolTip": "Controllers\\TransaccionController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T23:12:18.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-02T23:11:01.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransaccionService.cs",
+              "DocumentMoniker": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\Services\\TransaccionService.cs",
+              "RelativeDocumentMoniker": "Services\\TransaccionService.cs",
+              "ToolTip": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\Services\\TransaccionService.cs",
+              "RelativeToolTip": "Services\\TransaccionService.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAcwLEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T22:57:56.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Ejercicios\\Inventarios\\Backend\\TransaccionesService\\TransaccionesService.csproj": {}
+    "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\TransaccionesService.csproj": {}
   },
   "projects": {
-    "E:\\Ejercicios\\Inventarios\\Backend\\TransaccionesService\\TransaccionesService.csproj": {
+    "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\TransaccionesService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Ejercicios\\Inventarios\\Backend\\TransaccionesService\\TransaccionesService.csproj",
+        "projectUniqueName": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\TransaccionesService.csproj",
         "projectName": "TransaccionesService",
-        "projectPath": "E:\\Ejercicios\\Inventarios\\Backend\\TransaccionesService\\TransaccionesService.csproj",
+        "projectPath": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\TransaccionesService.csproj",
         "packagesPath": "C:\\Users\\davee\\.nuget\\packages\\",
-        "outputPath": "E:\\Ejercicios\\Inventarios\\Backend\\TransaccionesService\\obj\\",
+        "outputPath": "E:\\Ejercicios\\GestionInventarios\\Backend\\TransaccionesService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\davee\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
