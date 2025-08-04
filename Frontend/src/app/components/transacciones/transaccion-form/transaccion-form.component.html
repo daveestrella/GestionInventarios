@@ -1,0 +1,54 @@
+<h2 mat-dialog-title>Registrar Transacción</h2>
+
+<form [formGroup]="form" (ngSubmit)="guardar()" class="content">
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Tipo</mat-label>
+        <mat-select formControlName="tipo">
+            <mat-option value="COMPRA">Compra</mat-option>
+            <mat-option value="VENTA">Venta</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Producto</mat-label>
+        <mat-select formControlName="productoId">
+            <mat-option *ngFor="let p of productos" [value]="p.id">{{ p.nombre }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <!-- Stock visible solo en ventas -->
+    <div *ngIf="form.value.tipo === 'VENTA' && stockDisponible !== null" class="stock-info">
+        Stock disponible: <strong>{{ stockDisponible }}</strong>
+    </div>
+
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Cantidad</mat-label>
+        <input type="number" matInput formControlName="cantidad" />
+        <mat-error *ngIf="form.get('cantidad')?.hasError('min')">
+            Debe ser al menos 1
+        </mat-error>
+        <mat-error *ngIf="form.get('cantidad')?.hasError('max')">
+            La cantidad excede el stock disponible
+        </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Precio Unitario</mat-label>
+        <input type="number" matInput formControlName="precioUnitario" />
+    </mat-form-field>
+
+    <div class="precio-total" *ngIf="precioTotal > 0">
+        Precio Total: <strong>{{ precioTotal | currency }}</strong>
+    </div>
+
+
+    <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Detalle</mat-label>
+        <textarea matInput formControlName="detalle"></textarea>
+    </mat-form-field>
+
+    <div class="actions">
+        <button mat-raised-button type="button" color="warn" (click)="cancelar()">Cancelar</button>
+        <button mat-raised-button color="primary" type="submit">Guardar</button>
+    </div>
+</form>

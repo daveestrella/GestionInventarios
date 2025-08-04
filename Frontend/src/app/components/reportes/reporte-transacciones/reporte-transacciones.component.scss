@@ -1,0 +1,17 @@
+.filtros-form {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+  .producto-field {
+    grid-column: 1 / span 2;
+  }
+
+  .boton-field {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1rem;
+  }
+}

@@ -1,0 +1,27 @@
+.full-width {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.content {
+    margin: 15px;
+}
+
+.stock-info {
+    font-size: 14px;
+    margin: -10px 0 12px 4px;
+    color: #555;
+}
+
+.precio-total {
+    margin-top: 8px;
+    font-size: 15px;
+    color: #333;
+}
